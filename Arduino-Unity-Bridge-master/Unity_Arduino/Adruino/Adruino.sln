@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adruino", "Assembly-CSharp-firstpass.csproj", "{2485731B-4C43-FFFE-A8D0-4EDBE1B680FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adruino", "Assembly-CSharp.csproj", "{82381972-7F3F-0216-D06F-C845C6E3454F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2485731B-4C43-FFFE-A8D0-4EDBE1B680FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2485731B-4C43-FFFE-A8D0-4EDBE1B680FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2485731B-4C43-FFFE-A8D0-4EDBE1B680FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2485731B-4C43-FFFE-A8D0-4EDBE1B680FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82381972-7F3F-0216-D06F-C845C6E3454F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82381972-7F3F-0216-D06F-C845C6E3454F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82381972-7F3F-0216-D06F-C845C6E3454F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82381972-7F3F-0216-D06F-C845C6E3454F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

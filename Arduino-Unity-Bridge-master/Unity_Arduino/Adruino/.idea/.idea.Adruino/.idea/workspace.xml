@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="086e3b64-5f6c-48fb-8a72-8baa475b501d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Arduino.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Arduino.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <marker date="1515546618000" expanded="true" signature="56:561" ph="{...}" />
+                <marker date="1515546618000" expanded="true" signature="109:222" ph="{...}" />
+                <marker date="1515546618000" expanded="true" signature="241:470" ph="{...}" />
+                <marker date="1515546618000" expanded="true" signature="500:559" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArduinoSerial.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/ArduinoSerial.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-222">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <marker date="1527019288808" expanded="true" signature="6:126" ph="..." />
+                <marker date="1527019288808" expanded="true" signature="154:5649" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="312:433" ph="/* Note: A ConcurrentDict&lt;Tkey, TValue&gt; would be ideal. ... */" />
+                <marker date="1527019288808" expanded="true" signature="568:819" ph="/// Starts serial communication with the arduino. ... " />
+                <marker date="1527019288808" expanded="true" signature="873:1107" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1127:1769" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1179:1270" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1335:1686" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1699:1763" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1797:2022" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1829:1893" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="1906:1985" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="2027:2639" ph="/* a quick memo: ... */" />
+                <marker date="1527019288808" expanded="true" signature="2645:2756" ph="/// Closes the serial port and also shuts down all related helper threads. ... " />
+                <marker date="1527019288808" expanded="true" signature="2784:2876" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="2882:3026" ph="/// Returns the most currently recieved line.  ... " />
+                <marker date="1527019288808" expanded="true" signature="3066:3395" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="3177:3285" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="3302:3358" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="3459:4064" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="3606:4056" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="3851:4020" ph="/* NOTE: The &quot;DataRecieved&quot; Event isn't implemented. Thus we can not use it. ... */" />
+                <marker date="1527019288808" expanded="true" signature="4145:4848" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="4179:4842" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="4460:4597" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="4624:4802" ph="/* Sleeping 20ms means 50 updates per second. ... */" />
+                <marker date="1527019288808" expanded="true" signature="4944:5166" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="4962:5004" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="5033:5160" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="5068:5150" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="5236:5491" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="5380:5485" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="5559:5647" ph="{...}" />
+                <marker date="1527019288808" expanded="true" signature="5590:5639" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToDo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/ToDo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1515546618000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1515546618000" expanded="true" signature="98:197" ph="{...}" />
+                <marker date="1515546618000" expanded="true" signature="105:195" ph="/* TODO ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Code/AccelerometerDataFromArduino.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/ToDo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Arduino.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/ArduinoSerial.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Code/Interface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/ArduinoConnector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/ArduinoSerial.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="121" />
+    <option name="y" value="31" />
+    <option name="width" value="1058" />
+    <option name="height" value="769" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Adruino" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Adruino" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="086e3b64-5f6c-48fb-8a72-8baa475b501d" name="Default" comment="" />
+      <created>1525987136196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525987136196</updated>
+      <workItem from="1525987139113" duration="1329000" />
+      <workItem from="1527018658815" duration="1281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2610000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="31" width="1058" height="769" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24952741" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Code/ArduinoConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/ArduinoConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Arduino.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1515546618000" expanded="true" signature="56:561" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="109:222" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="241:470" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="500:559" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/AccelerometerDataFromArduino.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1515546618000" expanded="false" signature="6:46" ph="..." />
+            <marker date="1515546618000" expanded="true" signature="105:1256" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="192:307" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="326:1165" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="385:425" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="1195:1254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/ArduinoSerial.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1527019288808" expanded="true" signature="6:126" ph="..." />
+            <marker date="1527019288808" expanded="true" signature="154:5649" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="312:433" ph="/* Note: A ConcurrentDict&lt;Tkey, TValue&gt; would be ideal. ... */" />
+            <marker date="1527019288808" expanded="true" signature="568:819" ph="/// Starts serial communication with the arduino. ... " />
+            <marker date="1527019288808" expanded="true" signature="873:1107" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1127:1769" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1179:1270" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1335:1686" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1699:1763" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1797:2022" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1829:1893" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="1906:1985" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="2027:2639" ph="/* a quick memo: ... */" />
+            <marker date="1527019288808" expanded="true" signature="2645:2756" ph="/// Closes the serial port and also shuts down all related helper threads. ... " />
+            <marker date="1527019288808" expanded="true" signature="2784:2876" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="2882:3026" ph="/// Returns the most currently recieved line.  ... " />
+            <marker date="1527019288808" expanded="true" signature="3066:3395" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="3177:3285" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="3302:3358" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="3459:4064" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="3606:4056" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="3851:4020" ph="/* NOTE: The &quot;DataRecieved&quot; Event isn't implemented. Thus we can not use it. ... */" />
+            <marker date="1527019288808" expanded="true" signature="4145:4848" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="4179:4842" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="4460:4597" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="4624:4802" ph="/* Sleeping 20ms means 50 updates per second. ... */" />
+            <marker date="1527019288808" expanded="true" signature="4944:5166" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="4962:5004" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="5033:5160" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="5068:5150" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="5236:5491" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="5380:5485" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="5559:5647" ph="{...}" />
+            <marker date="1527019288808" expanded="true" signature="5590:5639" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/ToDo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1515546618000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1515546618000" expanded="true" signature="98:197" ph="{...}" />
+            <marker date="1515546618000" expanded="true" signature="105:195" ph="/* TODO ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
