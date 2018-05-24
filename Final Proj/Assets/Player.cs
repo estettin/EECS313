@@ -173,19 +173,19 @@ public class Player : MonoBehaviour
 	
 	public void HandleInput()
 	{
-		if (Input.GetKeyDown("q"))
+		if (Input.GetKeyDown("left"))
 		{
 			LeftTrackInputT();
 		}
-		if (Input.GetKeyDown("a"))
+		if (Input.GetKeyDown("down"))
 		{
 			LeftTrackInputH();
 		}
-		if (Input.GetKeyDown("p"))
+		if (Input.GetKeyDown("right"))
 		{
 			RightTrackInputT();
 		}
-		if (Input.GetKeyDown("l"))
+		if (Input.GetKeyDown("up"))
 		{
 			RightTrackInputH();
 		}
