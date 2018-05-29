@@ -20,6 +20,9 @@ TagManager:
   - C4
   - Option3
   - C
+  - Option5
+  - Option4
+  - OTAC
   layers:
   - Default
   - TransparentFX

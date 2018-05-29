@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 	public int totalCount;
 	public int correctCount;
 	public bool feedbackMode;
+	public bool setactive;
 	
 	// Use this for initialization
 	void Start ()
@@ -19,11 +20,28 @@ public class Player : MonoBehaviour
 		started = false;
 		symbolCounter = 0;
 		feedbackMode = false;
+		setactive = false;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
+
+		if (!setactive && !feedbackMode)
+		{
+			if (GameObject.FindWithTag("Set").GetComponent<Text>().text == "")
+			{
+				var done = GameObject.FindWithTag("Begin");
+				done.GetComponent<Button>().interactable = false;
+			}
+			else
+			{
+				setactive = true;
+				var done = GameObject.FindWithTag("Begin");
+				done.GetComponent<Button>().interactable = true;
+			}
+		}
+		
 		HandleInput();
 		if (!feedbackMode)
 		{
@@ -84,6 +102,10 @@ public class Player : MonoBehaviour
 			{
 				Destroy(go.gameObject);
 			}
+			foreach (var go in FindObjectsOfType<keysymbol>())
+			{
+				Destroy(go.gameObject);
+			}
 			Destroy(GameObject.FindWithTag("Pause").gameObject);
 			CreateFeedbackScreen();
 			
@@ -102,7 +124,12 @@ public class Player : MonoBehaviour
 		var go5 = GameObject.FindWithTag("C4").GetComponent<RectTransform>();
 		go5.localScale = new Vector3(1,1,1);
 		go5.tag = "C1";
-		var go6 = GameObject.FindWithTag("C4").GetComponent<RectTransform>();
+		foreach (var sym in FindObjectsOfType<maximizer>())
+		{
+			sym.transform.localScale = new Vector3(.2f,.2f,.2f);
+		}
+		FindObjectOfType<keybackground>().gameObject.transform.localScale = new Vector3(3.7f,4.5f,1f);
+		/*var go6 = GameObject.FindWithTag("C4").GetComponent<RectTransform>();
 		go6.localScale = new Vector3(1,1,1);
 		go6.tag = "C1";
 		var go7 = GameObject.FindWithTag("C4").GetComponent<RectTransform>();
@@ -110,7 +137,7 @@ public class Player : MonoBehaviour
 		go7.tag = "C1";
 		var go8 = GameObject.FindWithTag("C4").GetComponent<RectTransform>();
 		go8.localScale = new Vector3(1,1,1);
-		go8.tag = "C1";
+		go8.tag = "C1";*/
 		var go = GameObject.FindWithTag("C").GetComponent<Text>();
 		go.text = "Pause/Play"; 
 		//Create your own taps for the misses
@@ -137,6 +164,7 @@ public class Player : MonoBehaviour
 					Destroy(b.gameObject);
 				}
 			}
+			Destroy(GameObject.FindWithTag("OTAC"));
 		}
 		var go = GameObject.FindWithTag("Pause");
 		foreach (var o in FindObjectsOfType<Symbol>())
@@ -432,6 +460,26 @@ public class Player : MonoBehaviour
 		FindObjectOfType<LeftTrackQueue>().AddInfo(ti);
 		FindObjectOfType<RightTrackQueue>().AddInfo(ti);
 	}
+	
+	public void AddOption4()
+	{
+		var go = GameObject.FindWithTag("Option4");
+		var ti = go.GetComponent<TrackInfo>();
+		var setText = GameObject.FindWithTag("Set");
+		setText.GetComponent<Text>().text += "\n - Combo 1";
+		FindObjectOfType<LeftTrackQueue>().AddInfo(ti);
+		FindObjectOfType<RightTrackQueue>().AddInfo(ti);
+	}
+	
+	public void AddOption5()
+	{
+		var go = GameObject.FindWithTag("Option5");
+		var ti = go.GetComponent<TrackInfo>();
+		var setText = GameObject.FindWithTag("Set");
+		setText.GetComponent<Text>().text += "\n - Combo2";
+		FindObjectOfType<LeftTrackQueue>().AddInfo(ti);
+		FindObjectOfType<RightTrackQueue>().AddInfo(ti);
+	}
 
 	public void Begin()
 	{
@@ -439,6 +487,7 @@ public class Player : MonoBehaviour
 		go.GetComponent<Button>().interactable = true;
 		go.GetComponent<Button>().GetComponentInChildren<Text>().text = "Start!";
 		var go2 = GameObject.FindWithTag("Begin");
+		
 		Destroy(go2);
 		FindObjectOfType<LeftTrackQueue>().Create();
 		FindObjectOfType<RightTrackQueue>().Create();
@@ -461,4 +510,17 @@ public class Player : MonoBehaviour
 		go.GetComponent<VideoPlayer>().targetCamera = Camera.main;
 		
 	}
+	
+	public void DisplayOption4()
+	{
+		var go = GameObject.Instantiate(Resources.Load("opt4"), new Vector3(0, 0, 0), new Quaternion()) as GameObject;
+		go.GetComponent<VideoPlayer>().targetCamera = Camera.main;
+	}
+	public void DisplayOption5()
+	{
+		var go = GameObject.Instantiate(Resources.Load("opt5"), new Vector3(0, 0, 0), new Quaternion()) as GameObject;
+		go.GetComponent<VideoPlayer>().targetCamera = Camera.main;
+		
+	}
+	
 }
