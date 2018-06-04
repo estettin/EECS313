@@ -1827,7 +1827,7 @@ GameObject:
   - component: {fileID: 471522941}
   - component: {fileID: 471522940}
   m_Layer: 0
-  m_Name: Option5
+  m_Name: Combo2
   m_TagString: Option5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1847,15 +1847,19 @@ MonoBehaviour:
   stringListLeft:
   - toe
   - toe
+  - heel
   positionListLeft:
   - 3
   - 3.5
+  - 4.5
   stringListRight:
   - toe
   - toe
+  - heel
   positionListRight:
-  - 4
-  - 4.5
+  - 5.5
+  - 6
+  - 7
 --- !u!4 &471522941
 Transform:
   m_ObjectHideFlags: 0
@@ -2057,7 +2061,7 @@ GameObject:
   - component: {fileID: 514439076}
   - component: {fileID: 514439075}
   m_Layer: 0
-  m_Name: Option4
+  m_Name: Combo1
   m_TagString: Option4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2077,15 +2081,23 @@ MonoBehaviour:
   stringListLeft:
   - toe
   - toe
+  - heel
+  - toe
   positionListLeft:
   - 3
   - 3.5
+  - 4
+  - 4.5
   stringListRight:
   - toe
   - toe
+  - heel
+  - toe
   positionListRight:
-  - 4
-  - 4.5
+  - 5.5
+  - 6
+  - 6.5
+  - 7
 --- !u!4 &514439076
 Transform:
   m_ObjectHideFlags: 0

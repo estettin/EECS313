@@ -26,7 +26,29 @@ public class VideoScript : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (Time.time > startTime + 5f)
+		if (Time.time > startTime + 10f && gameObject.tag == "longeroption")
+		{
+			foreach (var ui in FindObjectsOfType<Button>())
+			{
+				if (ui.tag !="C1")
+				{
+					ui.GetComponent<RectTransform>().localScale = new Vector3(1,1,1);
+				}
+			}
+			foreach (var text in FindObjectsOfType<Text>())
+			{
+				if (text.tag != "C4")
+				{
+					text.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
+				}
+			}
+			foreach (var sb in FindObjectsOfType<Scrollbar>())
+			{
+				sb.GetComponent<RectTransform>().localScale = new Vector3(1,1,1);    
+			}
+			Destroy(gameObject);
+		}
+		else if (Time.time > startTime + 5f && gameObject.tag != "longeroption")
 		{
 			foreach (var ui in FindObjectsOfType<Button>())
 			{

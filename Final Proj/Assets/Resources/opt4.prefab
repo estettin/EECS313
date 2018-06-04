@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114379692359907330}
   m_Layer: 5
   m_Name: opt4
-  m_TagString: Untagged
+  m_TagString: longeroption
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161023322754556}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 027c16248b8a94827a203b7ccf129253, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0f4da4f92145a4069ba8a0ae28b8a0d6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 0}
   m_TargetTexture: {fileID: 0}
@@ -176,6 +176,6 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
